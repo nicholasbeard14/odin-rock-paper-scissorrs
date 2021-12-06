@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+button {
+    color: white;
+    background-color: gray;
+    font-size: 36px;
+    border-width: 4px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#scores {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+#current-game-result {
+    font-size: 24px;
+    margin: 16px 0;
+    color: red;
+}
+
+#scores div {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+#final-result {
+    margin-top: 24px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
